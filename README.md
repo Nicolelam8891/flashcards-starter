@@ -10,6 +10,7 @@ GitHub Page: https://github.com/Nicolelam8891/flashcards-starter
 Learning goals: Application will have a thorough test suite that covers all functions. Test suite is organized, with each function tested in it's own it block. Each outcome and path is tested, including happy and sad paths. There are not any failing or pending tests upon submission. 
 
 Preview of App:
+![Flashcards](https://github.com/Nicolelam8891/flashcards-starter/assets/132624450/408d6349-79a3-40be-a72d-a514b4dec37e)
 
 Context:
 First project in Mod 2, following prompts to make a working application using TDD to drive implementation of my code. User is able to take guesses and see the final score at the end of the round. 
