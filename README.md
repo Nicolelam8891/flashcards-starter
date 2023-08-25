@@ -1,58 +1,22 @@
-# FlashCards Starter Kit
+Flashcards Project
 
-## Fork This Repo
+Abstract: 
+Contributed code to a partially constructed flashcards application, implementing a testing suite using TDD to drive implementation of my code. 
+Write a program to simulate a set of flash cards through the command line, where the user is able to see the questions, take guesses and have a final score at the end of the round.
 
-On the top right corner of this page, click the **Fork** button.
+Installation Instructions:
+GitHub Page: https://github.com/Nicolelam8891/flashcards-starter
 
-## Setup
+Learning goals: Application will have a thorough test suite that covers all functions. Test suite is organized, with each function tested in it's own it block. Each outcome and path is tested, including happy and sad paths. There are not any failing or pending tests upon submission. 
 
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
+Preview of App:
 
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
+Context:
+First project in Mod 2, following prompts to make a working application using TDD to drive implementation of my code. User is able to take guesses and see the final score at the end of the round. 
 
-Once you have cloned the repo, change into the directory and install the library dependencies using the command:
+Contributors:
+Nicole Ngoc Gia Lam: https://github.com/Nicolelam8891
 
-```bash
-npm install
-```
+Install/Setup instructions: Clone down the forked repo from GitHub. Run git clone [remote-address] [name of repo]. After repo is cloned, changed into directory and installed the library using the command line npm install. To verify the setup is correct, run npm test in terminal. Skipped tests in the card test file will show up. Run node index.js, the following message will be displayed in the terminal, Your project is running. 
 
-To verify that it is setup correctly, run `npm test` in your terminal. You should have skipped tests in your `card` test file show up.
-
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
-
-```bash
-Your project is running...
-```
-
-*Note that you will not need to you run this file until you are running your `game` file in Iteration 3. Prior to that, you should strive to use TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
-
-
-## Where to Add Your Code
-
-**Create all of your feature code files in the `src` directory.** Use the `module.exports` and `require` syntax to share code across files.
-
-## How to View Your Code in Action
-
-Once you are working through Iteration 3, you will want to run the `node index.js` command in your terminal to run the game.
-
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
-
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
-
----
-
-## Test Files Organization
-
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
-
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `card-test.js`.
-
-## Running Your Tests
-
-Run your test suite using the command:
-
-```bash
-npm test
-```
+Technologies used: Javascript, TDD
